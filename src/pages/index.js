@@ -8,11 +8,11 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
-      <div className="z-10 flex flex-col max-w-5xl w-full items-center align-items-start font-mono text-sm">
+      <div className="z-10 flex flex-col max-w-5xl w-full items-center items-start font-mono text-sm">
 	  <p>Caspy</p>
       </div>
       <div>
-	  <p classname="text-xl">The Spatial Video Repository</p>
+          <p className="text-xl">The Spatial Video Repository</p>
 	  <p>Store and search the most intuitive medium.</p> 
       </div>
       <div>
